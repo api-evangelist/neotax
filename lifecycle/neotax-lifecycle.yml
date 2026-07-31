@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.neo.tax/security
+status_page: https://status.neo.tax/
+notes: >-
+  Neo.Tax is a closed enterprise SaaS platform (R&D tax credit automation,
+  software capitalization) with no public API, no published versioning or
+  deprecation policy, and no developer portal. A public status page is
+  operated at status.neo.tax. No RFC 8594 Sunset/Deprecation header policy or
+  SLA document was found on the public surface.
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

@@ -1,8 +1,29 @@
 aid: neotax
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neotax.png
 name: Neo.Tax
-description: 'Neo.Tax is a company surfaced as a portfolio company of gv, uncork-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Neo.Tax is an AI-powered tax automation platform that helps enterprises and
+  their accounting teams generate audit-ready R&D tax credit studies, software
+  capitalization (ASC 350-40), and R&D capitalization (IRC Section 174)
+  documentation. The platform ingests engineering and financial data from tools
+  like Jira, GitHub, payroll systems, and Workday and uses large language models
+  and agentic AI to qualify projects under IRC Section 41, eliminating the manual
+  surveys and interviews that traditionally drive R&D tax credit work. Neo.Tax is
+  backed by GV and Uncork Capital and delivered as a closed enterprise SaaS
+  product; it operates a customer application, a help center, a public status
+  page, and a trust center (SOC 2 Type II, ISO/IEC 27001:2022, GDPR) but does not
+  publish a public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/neotax/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Tax
+- R&D Tax Credit
+- Accounting
+- Fintech
+- Compliance
+- Artificial Intelligence
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +53,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://neo.tax
+  url: https://neo.tax
+- type: Blog
+  url: https://www.neo.tax/blog
+- type: Support
+  url: https://help.neo.tax
+- type: SignUp
+  url: https://app.neo.tax
+- type: TermsOfService
+  url: https://www.neo.tax/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.neo.tax/legal/privacy-policy
+- type: StatusPage
+  url: https://status.neo.tax/
+- type: Lifecycle
+  url: lifecycle/neotax-lifecycle.yml
+- type: Compliance
+  url: https://trust.neo.tax
+- type: TrustCenter
+  url: security/neotax-trust-center.yml
+- type: Security
+  url: https://www.neo.tax/security
+- type: VulnerabilityDisclosure
+  url: security/neotax-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/neotax-domain-security.yml
+- type: LLMsTxt
+  url: llms/neotax-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

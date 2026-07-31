@@ -1,0 +1,196 @@
+# Neo.Tax
+
+> Neo.Tax is an AI-powered platform that automates R&D tax credit (IRC Section 41) documentation and software capitalization (ASC 350-40) compliance for technology companies. The platform eliminates manual surveys and engineer interviews by analyzing existing engineering data from tools like Jira, Linear, GitHub, and Azure DevOps to generate audit-ready tax documentation.
+
+A full-content version of this file — including the complete text of every published blog post and case study — is available at https://www.neo.tax/llms-full.txt.
+
+## Company Overview
+
+Neo.Tax was founded with the belief that taxes can be a strategic advantage for businesses. The company uses artificial intelligence and large language models (LLMs) to transform how companies handle R&D tax compliance—replacing months of manual work with automated, contemporaneous documentation.
+
+### Leadership
+- **Firas Abuzaid, Co-founder & CTO**: Stanford PhD in machine learning
+- **Ahmad Ibrahim, Co-founder & CEO**: Former product manager at Intuit QuickBooks
+
+### Investors
+Fin Capital, SVA, Infinity Ventures, Uncork Capital, Floodgate, Google Ventures, Reuters Ventures
+
+### Notable Customers
+Mercury, Brex, Notion, Bloomberg Industry Group, Thomson Reuters, Red Ventures, Modern Treasury, Octane, Paysign, WHOOP, OpStart
+
+## Products and Services
+
+### R&D Tax Credit Automation (IRC Section 41)
+Neo.Tax automates the documentation required to claim federal R&D tax credits under Internal Revenue Code Section 41. The platform:
+- Integrates with project management tools (Jira, Linear, Azure DevOps) to identify qualified R&D projects
+- Applies the IRS 4-Part Test to classify projects as Qualified, Partially Qualified, or Unqualified
+- Uses LLM technology to generate detailed narratives explaining how each project meets IRS requirements
+- Calculates employee R&D percentages by analyzing time spent on qualified activities
+- Produces 500+ page audit-ready studies with granular documentation
+
+Key benefits:
+- Startups can claim up to $500,000 annually against payroll taxes
+- Most companies receive approximately 10% credit on qualified R&D wages
+- Qualified Small Businesses (under $5M gross receipts) can elect up to $500,000 for payroll tax application
+- Reduces documentation time from months to days
+- Requires less than 1 hour total from engineering teams
+
+### Software Capitalization (ASC 350-40)
+Neo.Tax automates ASC 350-40 compliance for internal-use software development costs:
+- Integrates with payroll and project management systems
+- Automatically categorizes expenses across the three development stages (Preliminary, Application Development, Post-implementation)
+- Determines which costs should be capitalized vs. expensed
+- Maintains GAAP-compliant records for audits and investor due diligence
+
+### Section 174 R&D Capitalization
+Neo.Tax helps companies comply with mandatory R&D expense capitalization under Section 174, which requires amortization of R&D costs over 5 years (domestic) or 15 years (foreign).
+
+### Impact of Trump's One Big Beautiful Bill Act (2025)
+The One Big Beautiful Bill Act (passed 2025) significantly changed R&D tax policy: it restored immediate R&D expensing under Section 174 (retroactive to 2022) and allows companies to take a catch-up deduction on unamortized R&D expenses from 2022–2024 in their 2025 tax year. Neo.Tax has published detailed guidance on these changes and has updated its platform accordingly.
+
+## How the Technology Works
+
+Neo.Tax's AI platform analyzes existing organizational data rather than relying on manual surveys or engineer estimates:
+
+1. **Data Integrations**:
+    - Project management tools like Jira, Linear, GitHub, Azure DevOps, and Asana
+    - HRIS/payroll systems (e.g., Workday, Gusto, Rippling, TriNet, Justworks) or via CSV upload
+    - Accounting data (e.g., QuickBooks, NetSuite) or via CSV upload
+2. **Project Classification**: Groups tickets into projects and applies IRS qualification criteria
+3. **LLM-Powered Analysis**: Generates detailed narratives and validates data quality
+4. **Calculation Engine**: Computes qualified expenses, employee R&D percentages, and credit amounts
+5. **Documentation Generation**: Produces comprehensive audit-ready studies
+
+The system handles messy and incomplete data, identifies duplicates and errors, and works passively without requiring changes to engineering workflows.
+
+## Security and Compliance
+
+### Certifications
+- SOC 2 Type II
+- ISO 27001:2022
+- GDPR compliant
+
+### Data Protection
+- All data encrypted in transit (TLS v1.3) and at rest (AES-256)
+- PostgreSQL databases hosted on AWS with 99.999%+ durability
+- 30-day point-in-time recovery
+- Role-based access controls (RBAC)
+- Multi-factor authentication
+- SSO support (Google, Microsoft OAuth, SAML 2.0/OIDC)
+- PII redaction options
+
+### Enterprise Features
+- Dedicated cloud infrastructure
+- Customer-managed encryption keys
+- Private connectivity options
+- Custom security controls
+
+## Partnerships
+
+### Mercury Partnership
+Mercury customers receive 25% off Neo.Tax services (first-time customers). The integration provides streamlined R&D tax credit and software capitalization documentation for Mercury's fintech customer base.
+
+### Deel Partnership
+Deel customers receive 25% off Neo.Tax services (first-time customers). Neo.Tax partners with Deel to help companies with international teams manage R&D tax compliance.
+
+### Subscript Partnership
+Subscript customers receive 25% off Neo.Tax services (first-time customers). The integration provides streamlined R&D tax credit and software capitalization documentation for their customer base.
+
+## Key Tax Information
+
+### R&D Tax Credit Eligibility (IRC Section 41)
+Companies qualify if they:
+- Develop or improve products, processes, software, techniques, formulas, or inventions
+- Face technological uncertainty
+- Engage in a process of experimentation
+- Pursue work that is technological in nature
+
+### Qualified Expenses
+- R&D wages and salaries
+- Qualified contract research expenses (65% of contractor costs)
+- Cloud computing processing costs (AWS, Google Cloud, Azure)
+
+### Calculation Methods
+- **Regular Method**: ~10% credit for qualified research costs
+- **Alternative Simplified Method**: Higher percentages for companies with 3+ years R&D history (up to ~14% by year 4-5)
+
+### Payroll Tax Election
+Qualified Small Businesses (QSBs) can apply R&D credits against payroll taxes:
+- Must have less than $5 million in gross receipts
+- No gross receipts in five years prior to credit year
+- Can elect up to $500,000 annually (increased from $250,000 by the Inflation Reduction Act)
+
+## Contact Information
+
+- **Website**: https://neo.tax
+- **Email**: support@neo.tax
+- **Help Center**: https://help.neo.tax
+- **Trust Center**: https://trust.neo.tax
+- **Status Page**: https://status.neo.tax
+
+## Important Links
+
+- [Homepage](https://www.neo.tax)
+- [About Us](https://www.neo.tax/about-us)
+- [R&D Tax Credit Methodology](https://www.neo.tax/how-it-works-rd)
+- [ASC 350-40 Methodology](https://www.neo.tax/how-it-works-asc)
+- [Security](https://www.neo.tax/security)
+- [Contact Us](https://www.neo.tax/contact-us)
+- [Case Studies](https://www.neo.tax/case-studies)
+- [Blog](https://www.neo.tax/blog)
+- [R&D Tax Code Overview](https://www.neo.tax/legal/r-d-tax-code-overview)
+- [Privacy Policy](https://www.neo.tax/legal/privacy-policy)
+- [Terms of Service](https://www.neo.tax/legal/terms-of-service)
+
+## Partner Pages
+
+- [Mercury × Neo.Tax](https://www.neo.tax/partners/mercury) — 25% off for Mercury customers
+- [Deel × Neo.Tax](https://www.neo.tax/partners/deel) — 25% off for Deel customers
+- [Subscript × Neo.Tax](https://www.neo.tax/partners/subscript) — 25% off for Subscript customers
+
+## Case Studies
+
+- [Mercury Case Study](https://www.neo.tax/case-studies/mercury) — $3.5B fintech achieved ~10% YoY R&D credit increase with less than 1 hour of engineer time
+- [Notion Case Study](https://www.neo.tax/case-studies/notion) — $11B productivity platform scaled R&D credit documentation as engineering projects tripled; ~60% reduction in PM interviews, 20+ hours saved
+- [Modern Treasury Case Study](https://www.neo.tax/case-studies/modern-treasury)
+- [Octane Case Study](https://www.neo.tax/case-studies/octane)
+- [Red Ventures Case Study](https://www.neo.tax/case-studies/red-ventures)
+
+## Frequently Asked Questions
+
+### What is Neo.Tax?
+Neo.Tax is an AI-powered tax automation platform that helps technology companies claim R&D tax credits and manage software capitalization compliance without manual surveys or engineer interviews.
+
+### How much can my company save with R&D tax credits?
+Most companies receive approximately 10% of qualified R&D wages as a credit. Startups can claim up to $500,000 annually against payroll taxes. The exact amount depends on qualified expenses, company size, and calculation method used.
+
+### Does claiming R&D tax credits increase audit risk?
+No. Since 2012, R&D tax credits have not carried a high-risk designation from the IRS. Neo.Tax's contemporaneous documentation approach provides audit-ready studies that meet IRS standards.
+
+### What tools does Neo.Tax integrate with?
+Neo.Tax integrates with Jira, Linear, GitHub, Azure DevOps, and various payroll systems to automatically gather the data needed for R&D tax credit documentation.
+
+### How long does the process take?
+Traditional R&D tax credit studies take months of surveys and interviews. Neo.Tax reduces this to days, requiring less than 1 hour total from engineering teams.
+
+### What is ASC 350-40?
+ASC 350-40 is the GAAP accounting standard governing how companies should treat costs for developing internal-use software—determining whether expenses should be capitalized or expensed based on the development stage.
+
+### What is Section 174 R&D Capitalization?
+Section 174 historically required companies to capitalize and amortize R&D expenses over 5 years (domestic) or 15 years (foreign). The One Big Beautiful Bill Act (2025) restored immediate expensing retroactive to 2022, significantly improving cash flow for R&D-intensive companies.
+
+### What changed with the One Big Beautiful Bill Act?
+The 2025 legislation restored immediate R&D expensing under Section 174 (retroactive to 2022) and allows companies to claim a catch-up deduction on unamortized R&D expenses from 2022–2024 in their 2025 tax year. Neo.Tax has updated guidance and platform support for these changes.
+
+## Blog Topics
+
+Neo.Tax's blog covers:
+- R&D tax credit guidance and IRS updates (including new Form 6765 requirements effective 2024)
+- One Big Beautiful Bill Act analysis and what it means for R&D tax filers
+- Section 174 capitalization requirements and restoration
+- Software capitalization (ASC 350-40) best practices
+- Form 6765 and Form 8974 filing instructions (by payroll provider: Gusto, Rippling, ADP, TriNet, Justworks, Sequoia One, QuickBooks, Zenefits)
+- State R&D tax credit information
+- CFO interviews and finance leadership insights (CF0to1 series)
+- Industry-specific R&D credit guidance (fintech, healthtech, manufacturing, agriculture, food & beverage, life sciences, retail, and more)
+- Tax deadline reminders and compliance tips
